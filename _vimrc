@@ -1,52 +1,35 @@
-source $VIMRUNTIME/vimrc_example.vim
-source $VIMRUNTIME/mswin.vim
-behave mswin
+" nerdtree key map
+if isdirectory(expand("$VIM/vimfiles/bundle/nerdtree"))
+	map <C-e> <plug>NERDTreeTabsToggle<CR>
+	map <leader>e :NERDTreeFind<CR>
+	nmap <leader>nt :NERDTreeFind<CR>
 
-set diffexpr=MyDiff()
-function MyDiff()
-  let opt = '-a --binary '
-  if &diffopt =~ 'icase' | let opt = opt . '-i ' | endif
-  if &diffopt =~ 'iwhite' | let opt = opt . '-b ' | endif
-  let arg1 = v:fname_in
-  if arg1 =~ ' ' | let arg1 = '"' . arg1 . '"' | endif
-  let arg2 = v:fname_new
-  if arg2 =~ ' ' | let arg2 = '"' . arg2 . '"' | endif
-  let arg3 = v:fname_out
-  if arg3 =~ ' ' | let arg3 = '"' . arg3 . '"' | endif
-  if $VIMRUNTIME =~ ' '
-    if &sh =~ '\<cmd'
-      if empty(&shellxquote)
-        let l:shxq_sav = ''
-        set shellxquote&
-      endif
-      let cmd = '"' . $VIMRUNTIME . '\diff"'
-    else
-      let cmd = substitute($VIMRUNTIME, ' ', '" ', '') . '\diff"'
-    endif
-  else
-    let cmd = $VIMRUNTIME . '\diff'
-  endif
-  silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3
-  if exists('l:shxq_sav')
-    let &shellxquote=l:shxq_sav
-  endif
-endfunction
+	let NERDTreeShowBookmarks=1
+	let NERDTreeIgnore=['\.py[cd]$', '\~$', '\.swo$', '\.swp$', '^\.git$', '^\.hg$', '^\.svn$', '\.bzr$']
+	let NERDTreeChDirMode=0
+	let NERDTreeQuitOnOpen=1
+	let NERDTreeMouseMode=2
+	let NERDTreeShowHidden=1
+	let NERDTreeKeepTreeInNewTab=1
+	let g:nerdtree_tabs_open_on_gui_startup=0
+endif
+" solarized
+if !exists('g:override_spf13_bundles') && filereadable(expand("$VIM/vimfiles/bundle/vim-colors-solarized/colors/solarized.vim"))
+	let g:solarized_termcolors=256
+	let g:solarized_termtrans=1
+	let g:solarized_contrast="normal"
+	let g:solarized_visibility="normal"
+	color solarized             " Load a colorscheme
+endif
+
+" css 
+augroup VimCSS3Syntax
+  autocmd!
+
+  autocmd FileType css setlocal iskeyword+=-
+augroup END
 
 
-" 插件的配置文件{
-    if filereadable(expand("$VIM/.vimrc.bundle"))
-        source $VIM/.vimrc.bundle
-    endif
-" }
-" vim 插件配置文件{
-    if filereadable(expand("$VIM/.vimrc.bundle.config"))
-        source $VIM/.vimrc.bundle.config
-    endif
-" }
-" vim 配置文件{
-    if filereadable(expand("$VIM/.vimrc.config"))
-        source $VIM/.vimrc.config
-    endif
-" }
-
-
+" ctrlp
+  let g:ctrlp_map = '<c-p>'
+  let g:ctrlp_cmd = 'CtrlP'
