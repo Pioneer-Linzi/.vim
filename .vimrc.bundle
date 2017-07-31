@@ -15,17 +15,25 @@ call vundle#begin('$VIM/vimfiles/bundle/')
 Plugin 'VundleVim/Vundle.vim'
 
 " vim window plugin
-
+" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " nerdtree plugin 
 Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'kien/ctrlp.vim'
+" power-line
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+"let g:Powerline_symbols = 'fancy'
+"let g:Powerline_symbols = 'unicode'
 
 " css 
+" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plugin 'hail2u/vim-css3-syntax'
 
 "git 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plugin 'tpope/vim-fugitive'
+
 
 
 
