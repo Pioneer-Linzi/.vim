@@ -14,6 +14,10 @@ call vundle#begin('$VIM/vimfiles/bundle/')
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+
+" quick move 
+Plugin 'easymotion/vim-easymotion'
+
 " vim window plugin
 " """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " nerdtree plugin 
