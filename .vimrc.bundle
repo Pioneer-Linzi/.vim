@@ -38,6 +38,11 @@ Plugin 'hail2u/vim-css3-syntax'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plugin 'tpope/vim-fugitive'
 
+" javascript
+Plugin 'pangloss/vim-javascript'
+Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'ervandew/supertab'
+
 
 
 
