@@ -32,6 +32,9 @@ Plugin 'vim-airline/vim-airline-themes'
 " minibufexpl
 Plugin 'fholgado/minibufexpl.vim'
 Plugin 'Yggdroot/indentLine'
+Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'tpope/vim-surround'
 
 " css 
 " """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -41,12 +44,16 @@ Plugin 'hail2u/vim-css3-syntax'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'mattn/gist-vim'
+" TODO how to use gist
 
 " javascript
 Plugin 'pangloss/vim-javascript'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'ervandew/supertab'
 
+"--------------------code---------------------------------------
+Plugin 'scrooloose/syntastic'
 
 
 "--------------------tasklist------------------------------------
@@ -57,5 +64,4 @@ Plugin 'mbbill/undotree'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
-
 
