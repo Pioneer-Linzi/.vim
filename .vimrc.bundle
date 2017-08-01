@@ -15,12 +15,12 @@ call vundle#begin('$VIM/vimfiles/bundle/')
 Plugin 'VundleVim/Vundle.vim'
 
 
-" quick move 
+" quick move
 Plugin 'easymotion/vim-easymotion'
 
 " vim window plugin
 " """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" nerdtree plugin 
+" nerdtree plugin
 Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'kien/ctrlp.vim'
@@ -36,11 +36,11 @@ Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'tpope/vim-surround'
 
-" css 
+" css
 " """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plugin 'hail2u/vim-css3-syntax'
 
-"git 
+"git
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
@@ -54,6 +54,7 @@ Plugin 'ervandew/supertab'
 
 "--------------------code---------------------------------------
 Plugin 'scrooloose/syntastic'
+Plugin 'Chiel92/vim-autoformat'
 
 
 "--------------------tasklist------------------------------------
