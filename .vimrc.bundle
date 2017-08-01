@@ -51,10 +51,13 @@ Plugin 'mattn/gist-vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'ervandew/supertab'
+Plugin 'maksimr/vim-jsbeautify'
 
 "--------------------code---------------------------------------
 Plugin 'scrooloose/syntastic'
 Plugin 'Chiel92/vim-autoformat'
+Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'junegunn/vim-easy-align'
 
 
 "--------------------tasklist------------------------------------
