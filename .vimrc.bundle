@@ -47,6 +47,9 @@ Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'ervandew/supertab'
 
 
+"--------------------code style-----------------
+Plugin 'editorconfig/editorconfig-vim'
+
 
 
 
