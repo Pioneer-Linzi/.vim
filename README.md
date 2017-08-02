@@ -9,4 +9,3 @@
 ```
 	git clone http://github.com/VundleVim/Vundle.Vim
 ```
-
