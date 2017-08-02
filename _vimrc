@@ -1,5 +1,5 @@
 source $VIMRUNTIME/vimrc_example.vim
-" ctrl+v ²»ÄÜÑ¡¿é£¬¹û¶ÏµÄ×¢ÊÍÁË
+" ctrl+v ä¸èƒ½é€‰å—ï¼Œæœæ–­çš„æ³¨é‡Šäº†
 "source $VIMRUNTIME/mswin.vim
 behave mswin
 
@@ -34,17 +34,17 @@ function MyDiff()
 endfunction
 
 
-" ²å¼şµÄÅäÖÃÎÄ¼ş{
+" æ’ä»¶çš„é…ç½®æ–‡ä»¶{
     if filereadable(expand("$VIM/.vimrc.bundle"))
         source $VIM/.vimrc.bundle
     endif
 " }
-" vim ²å¼şÅäÖÃÎÄ¼ş{
+" vim æ’ä»¶é…ç½®æ–‡ä»¶{
     if filereadable(expand("$VIM/.vimrc.bundle.config"))
         source $VIM/.vimrc.bundle.config
     endif
 " }
-" vim ÅäÖÃÎÄ¼ş{
+" vim é…ç½®æ–‡ä»¶{
     if filereadable(expand("$VIM/.vimrc.config"))
         source $VIM/.vimrc.config
     endif

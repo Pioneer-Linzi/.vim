@@ -1,4 +1,4 @@
-" 此文件写的都是插件，每一个插件后面会跟着他的配置
+" 姝ゆ枃浠跺啓鐨勯兘鏄彃浠讹紝姣忎竴涓彃浠跺悗闈細璺熺潃浠栫殑閰嶇疆
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -67,6 +67,9 @@ Plugin 'ervandew/supertab'
 Plugin 'maksimr/vim-jsbeautify'
 "TODO
 Plugin 'othree/yajs.vim'
+" vue
+Plugin 'posva/vim-vue'
+
 "---------------------node-------------------------------------
 "TODO
 " Plugin 'moll/vim-node'
@@ -81,6 +84,10 @@ Plugin 'junegunn/vim-easy-align'
 "--------------------tasklist------------------------------------
 Plugin 'TaskList.vim'
 Plugin 'mbbill/undotree'
+
+"-------------------markdown-------------------------------------
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 
 
 

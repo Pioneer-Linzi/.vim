@@ -1,13 +1,12 @@
 # vim config file .vimrc
-	.vimrc  vim µÚÒ»ÅäÖÃÎÄ¼ş ÀïÃæÅäÖÃÁË·ÖÅäÖÃÎÄ¼şµÄÂ·¾¶
-	.vimrc.config 	vimµÄÅäÖÃÎÄ¼ş£¬
-	.vimrc.bundle ²å¼şµÄÅäÖÃÎÄ¼ş£¬Ö÷ÒªÊÇ²å¼ş
-	.vimrc.bundle.config vim ²å¼şµÄÅäÖÃÎÄ¼ş£¬Ö÷ÒªÓĞ¿ì½İ¼ü£¬Óë²å¼şµÄÅäÖÃ
+	.vimrc  vim ç¬¬ä¸€é…ç½®æ–‡ä»¶ é‡Œé¢é…ç½®äº†åˆ†é…ç½®æ–‡ä»¶çš„è·¯å¾„
+	.vimrc.config 	vimçš„é…ç½®æ–‡ä»¶ï¼Œ
+	.vimrc.bundle æ’ä»¶çš„é…ç½®æ–‡ä»¶ï¼Œä¸»è¦æ˜¯æ’ä»¶
+	.vimrc.bundle.config vim æ’ä»¶çš„é…ç½®æ–‡ä»¶ï¼Œä¸»è¦æœ‰å¿«æ·é”®ï¼Œä¸æ’ä»¶çš„é…ç½®
 
 # install 
 	clone vundel to vimfiles/bundle/ 
 ```
 	git clone http://github.com/VundleVim/Vundle.Vim
 ```
-
 
