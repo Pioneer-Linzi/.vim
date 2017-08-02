@@ -18,7 +18,7 @@ Plugin 'VundleVim/Vundle.vim'
 " quick move
 Plugin 'easymotion/vim-easymotion'
 " TODO  vim multiple cursore 
-" Plugin 'terryma/vim-multiple-cursors'
+Plugin 'terryma/vim-multiple-cursors'
 
 
 " vim window plugin
@@ -30,8 +30,8 @@ Plugin 'kien/ctrlp.vim'
 " power-line
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-"let g:Powerline_symbols = 'fancy'
-"let g:Powerline_symbols = 'unicode'
+let g:Powerline_symbols = 'fancy'
+let g:Powerline_symbols = 'unicode'
 " minibufexpl
 Plugin 'fholgado/minibufexpl.vim'
 Plugin 'Yggdroot/indentLine'
