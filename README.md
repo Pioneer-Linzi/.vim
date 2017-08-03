@@ -9,3 +9,13 @@
 ```
 	git clone http://github.com/VundleVim/Vundle.Vim
 ```
+
+# use plugin and key map
+
+## undotree
+
+```
+		,,td 打开todo list
+```
+
+
