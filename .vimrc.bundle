@@ -52,6 +52,8 @@ Plugin 'hail2u/vim-css3-syntax'
 Plugin 'JulesWang/css.vim'
 "TODO
 Plugin 'cakebaker/scss-syntax.vim'
+" stylus
+Plugin 'wavded/vim-stylus'
 
 "git
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
