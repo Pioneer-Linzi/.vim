@@ -17,7 +17,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " quick move
 Plugin 'easymotion/vim-easymotion'
-" TODO  vim multiple cursore 
+" TODO  vim multiple cursore
 Plugin 'terryma/vim-multiple-cursors'
 
 
@@ -39,7 +39,7 @@ Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'tpope/vim-surround'
 
-"html 
+"html
 "TODO
 Plugin 'othree/html5.vim'
 "TODO
@@ -90,6 +90,8 @@ Plugin 'mbbill/undotree'
 "-------------------markdown-------------------------------------
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+
+Plugin 'thaerkh/vim-workspace'
 
 
 
