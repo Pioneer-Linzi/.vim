@@ -35,18 +35,18 @@ endfunction
 
 
 " 插件的配置文件{
-    if filereadable(expand("$VIM/.vimrc.bundle"))
-        source $VIM/.vimrc.bundle
+    if filereadable(expand("~/.vim/.vimrc.bundle"))
+        source ~/.vim/.vimrc.bundle
     endif
 " }
 " vim 插件配置文件{
-    if filereadable(expand("$VIM/.vimrc.bundle.config"))
-        source $VIM/.vimrc.bundle.config
+    if filereadable(expand("~/.vim/.vimrc.bundle.config"))
+        source ~/.vim/.vimrc.bundle.config
     endif
 " }
 " vim 配置文件{
-    if filereadable(expand("$VIM/.vimrc.config"))
-        source $VIM/.vimrc.config
+    if filereadable(expand("~/.vim/.vimrc.config"))
+        source ~/.vim/.vimrc.config
     endif
 " }
 
