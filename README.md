@@ -1,3 +1,4 @@
+[TOC]
 # vim config file .vimrc
 	.vimrc  vim 第一配置文件 里面配置了分配置文件的路径
 	.vimrc.config 	vim的配置文件，
@@ -11,6 +12,45 @@
 ```
 
 # use plugin and key map
+
+## vim-easymotion
+## vim-multiple-cursors
+## nerdtree
+## vim-colors-solarized
+## ctrlp.vim
+## vim-airline
+## vim-airline-themes
+## minibufexpl.vim
+## indentLine
+## rainbow_parentheses.vim
+## auto-pairs
+## vim-surrund
+## html5.vim
+## emmet-vim
+## vim-css3-syntax
+## css.vim
+## scss-syntax.vim
+## vim-stylus
+## vim-fugitive
+## vim-gitgutter
+## gist-vim
+## vim-javascript
+## javascript-libraries-syntax.vim
+## supertab
+## vim-jsbeautify
+## yajs.vim
+## vim-vue
+## syntastic
+## vim-autoformat
+## vim-trailing-whitespace
+## vim-easy-align
+## YouCompleteMe
+## TaskList.vim
+## mbbil/undotree
+## tabular
+## vim-markdown
+## vim-workspace
+
 
 ## undotree
 
