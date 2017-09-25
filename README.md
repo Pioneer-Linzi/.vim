@@ -14,6 +14,7 @@
 # use plugin and key map
 
 ## vim-easymotion
+
 ## vim-multiple-cursors
 ## nerdtree
 ## vim-colors-solarized
