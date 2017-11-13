@@ -1,6 +1,6 @@
 source $VIMRUNTIME/vimrc_example.vim
 " ctrl+v 不能选块，果断的注释了
-"source $VIMRUNTIME/mswin.vim
+" source $VIMRUNTIME/mswin.vim
 behave mswin
 
 set diffexpr=MyDiff()
@@ -41,7 +41,7 @@ endfunction
 " }
 " vim 插件配置文件{
     if filereadable(expand("$VIM/.vimrc.bundle.config"))
-        source $VIM/.vimrc.bundle.config
+	     source $VIM/.vimrc.bundle.config
     endif
 " }
 " vim 配置文件{
