@@ -40,6 +40,3 @@ if has("gui_running")
 	set guioptions-=b " 隐藏底部滚动条
 	set showtabline=0 " 隐藏Tab栏
 endif
-
-set list
-set listchars=tab:?\ ,trail:��,precedes:?,extends:?
