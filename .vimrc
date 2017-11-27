@@ -1,6 +1,6 @@
 source $VIMRUNTIME/vimrc_example.vim
 " ctrl+v 不能选块，果断的注释了
-"source $VIMRUNTIME/mswin.vim
+" source $VIMRUNTIME/mswin.vim
 behave mswin
 
 set diffexpr=MyDiff()
