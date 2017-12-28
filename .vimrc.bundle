@@ -68,6 +68,12 @@ Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'ervandew/supertab'
 Plugin 'maksimr/vim-jsbeautify'
 
+" TypeScript
+
+Plugin 'leafgarland/typescript-vim'
+Plugin 'HerringtonDarkholme/yats.vim'
+Plugin 'Quramy/tsuquyomi'
+
 "TODO
 Plugin 'othree/yajs.vim'
 " vue
