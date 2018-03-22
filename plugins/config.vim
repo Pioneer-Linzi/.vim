@@ -165,13 +165,6 @@ vmap <leader>a <Plug>(EasyAlign)<cr><right>
 let g:easy_align_ignore_groups = ['Comment']
 
 
-" [> multiple cursor <]
-
-let g:multi_cursor_use_default_mapping=0
-let g:multi_cursor_next_key='<C-m>'
-let g:multi_cursor_prev_key='<C-p>'
-let g:multi_cursor_skip_key='<C-x>'
-let g:multi_cursor_quit_key='<esc>'
 
 
 " [> JsBeautify <]
@@ -187,11 +180,6 @@ autocmd FileType javascript nnoremap <buffer>  <c-f> :call JsBeautify()<cr>
 autocmd FileType json nnoremap <buffer>  <c-f> :call JsonBeautify()<cr>
 autocmd FileType html nnoremap <buffer> <c-f> :call HtmlBeautify()<cr>
 autocmd FileType css nnoremap <buffer> <c-f> :call CSSBeautify()<cr>
-
-" [> YankStack <]
-
-nmap <leader>p <Plug>yankstack_substitute_older_paste
-nmap <leader>P <Plug>yankstack_substitute_newer_paste
 
 
 " [> Javascript libraries syntax <]

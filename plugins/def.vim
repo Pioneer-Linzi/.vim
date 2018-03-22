@@ -21,9 +21,7 @@ Plug 'editorconfig/editorconfig-vim',             { 'commit' : 'a459b8cfef00100d
 Plug 'bronson/vim-trailing-whitespace',           { 'commit' : '733fb64337b6da4a51c85a43450cd620d8b617b5' }
 Plug 'scrooloose/syntastic',                      { 'commit' : '6ffba7395c562e152cb84bc8f7906de2b1ed0b8a' }
 Plug 'junegunn/vim-easy-align',                   { 'commit' : '0cb6b98fc155717b0a56c110551ac57d1d951ddb' }
-Plug 'terryma/vim-multiple-cursors',              { 'commit' : '51d0717f63cc231f11b4b63ee5b611f589dce1b3' }
 Plug 'maksimr/vim-jsbeautify',                    { 'commit' : 'caffda66a2a8852ee132f95291115af67370c5e7', 'do' : 'git submodule update --init --recursive && npm install' }
-Plug 'maxbrunsfeld/vim-yankstack',                { 'commit' : '157a659c1b101c899935d961774fb5c8f0775370' }
 Plug 'tpope/vim-surround',                        { 'commit' : 'e49d6c2459e0f5569ff2d533b4df995dd7f98313'}
 Plug 'elzr/vim-json',                             { 'commit' : 'f5e3181d0b33a9c51377bb7ea8492feddca8b503'}
 Plug 'othree/yajs.vim',                           { 'commit' : '138fa604d06d4e975c16d616c3c8a82d555c79fe'}
@@ -36,5 +34,4 @@ Plug 'moll/vim-node',                             { 'commit' : '13b31218447335e1
 Plug 'syngan/vim-vimlint',                        { 'commit' : 'c8b9cd9d8a0fb6dc69667d32819aeef503cff55c'}
 Plug 'ynkdir/vim-vimlparser',                     { 'commit' : '2fff43c58968a18bc01bc8304df68bde01af04d9'}
 Plug 'mattn/emmet-vim',                           { 'commit' : '5b217264dde398699849a0211bbe1a917d8b2f7a'}
-
 call plug#end()

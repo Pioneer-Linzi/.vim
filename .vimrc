@@ -12,7 +12,6 @@
 " please look at files under the config folder for global config
 " and under plugins for plugins configuration
 
-
 filetype plugin on
 
 let g:vimDir = $HOME.'/.vim'
@@ -83,6 +82,4 @@ else
     if filereadable(s:userConfig)
        exec ":source ".s:userConfig
     endif
-
 endif
-

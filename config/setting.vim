@@ -5,9 +5,15 @@
 " source: https://github.com/krampstudio/dotvim
 " year  : 2015
 "
+set nocompatible
+scriptencoding utf-8
 
 " wrap end of line
 set wrap
+set undodir=$VIM/.undodir
+set nobackup
+set nu
+set relativenumber
 
 " show line numbers
 set number
@@ -29,24 +35,23 @@ set backspace=indent,eol,start
 set smarttab
 set expandtab
 
-"search
-set showmatch
-set smartcase
+
+
 
 set hlsearch
 set incsearch
 
-
-" copy/paste
-"set paste
-set clipboard=unnamedplus
-
 " folding manual
 set foldmethod=manual
 
-" mouse
-set mouse=a
 
 " spell check, to be activated manually
 set spelllang=en_us
 set nospell
+
+set encoding=utf-8
+set termencoding=utf-8
+set fileencoding=utf-8
+set fileencodings=ucs-bom,utf-8,chinese,cp936
+language messages zh_CN.utf-8
+
