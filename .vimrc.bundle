@@ -29,8 +29,6 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 let g:Powerline_symbols = 'fancy'
 let g:Powerline_symbols = 'unicode'
-" minibufexpl
-Plugin 'fholgado/minibufexpl.vim'
 Plugin 'mattn/emmet-vim'
 
 "git
