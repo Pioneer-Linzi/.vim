@@ -40,6 +40,9 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'ervandew/supertab'
 
+" vue
+ Plugin 'posva/vim-vue'
+
 "--------------------code---------------------------------------
 Plugin 'scrooloose/syntastic'
 Plugin 'Chiel92/vim-autoformat'

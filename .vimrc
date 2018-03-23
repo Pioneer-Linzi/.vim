@@ -49,5 +49,10 @@ endfunction
         source ~/.vim/.vimrc.config
     endif
 " }
+" vim autocmd{
+    if filereadable(expand("~/.vim/autocmd.vim"))
+        source ~/.vim/autocmd.vim
+    endif
+" }
 
 
