@@ -48,6 +48,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'junegunn/vim-easy-align'
+Plugin 'Pioneer-Linzi/vim-template'
 
 "-------------------快速注释-----------------------------------
 Plugin 'scrooloose/nerdcommenter'
