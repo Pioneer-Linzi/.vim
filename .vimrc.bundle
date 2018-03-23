@@ -14,18 +14,15 @@ call vundle#begin('~/.vim/vimfiles/bundle/')
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.Vim'
 
-
 " quick move
 Plugin 'easymotion/vim-easymotion'
-" TODO  vim multiple cursore
-Plugin 'terryma/vim-multiple-cursors'
 
 
 " vim window plugin
 " """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Plugin 'vim-dist/PaperColor.vim'
 " nerdtree plugin
 Plugin 'scrooloose/nerdtree'
-Plugin 'altercation/vim-colors-solarized'
 Plugin 'kien/ctrlp.vim'
 " power-line
 Plugin 'vim-airline/vim-airline'
@@ -34,60 +31,25 @@ let g:Powerline_symbols = 'fancy'
 let g:Powerline_symbols = 'unicode'
 " minibufexpl
 Plugin 'fholgado/minibufexpl.vim'
-Plugin 'Yggdroot/indentLine'
-Plugin 'kien/rainbow_parentheses.vim'
-Plugin 'jiangmiao/auto-pairs'
-Plugin 'tpope/vim-surround'
-
-"html
-"TODO
-Plugin 'othree/html5.vim'
-"TODO
 Plugin 'mattn/emmet-vim'
-
-" css
-" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Plugin 'hail2u/vim-css3-syntax'
-"TODO
-Plugin 'JulesWang/css.vim'
-"TODO
-Plugin 'cakebaker/scss-syntax.vim'
-" stylus
-Plugin 'wavded/vim-stylus'
 
 "git
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plugin 'tpope/vim-fugitive'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'mattn/gist-vim'
-" TODO how to use gist
 
 " javascript
 Plugin 'pangloss/vim-javascript'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'ervandew/supertab'
-Plugin 'maksimr/vim-jsbeautify'
-
-" TypeScript
-
-Plugin 'leafgarland/typescript-vim'
-Plugin 'HerringtonDarkholme/yats.vim'
-Plugin 'Quramy/tsuquyomi'
-
-"TODO
-Plugin 'othree/yajs.vim'
-" vue
-Plugin 'posva/vim-vue'
-
-"---------------------node-------------------------------------
-"TODO
-" Plugin 'moll/vim-node'
 
 "--------------------code---------------------------------------
 Plugin 'scrooloose/syntastic'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'junegunn/vim-easy-align'
+
+"-------------------快速注释-----------------------------------
+Plugin 'scrooloose/nerdcommenter'
 
 
 
@@ -96,12 +58,8 @@ Plugin 'TaskList.vim'
 Plugin 'mbbill/undotree'
 
 "-------------------markdown-------------------------------------
-Plugin 'godlygeek/tabular'
 Plugin 'iamcco/mathjax-support-for-mkdp'
 Plugin 'iamcco/markdown-preview.vim'
-
-Plugin 'thaerkh/vim-workspace'
-
 
 
 call vundle#end()            " required
