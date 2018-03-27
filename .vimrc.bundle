@@ -40,12 +40,16 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'ervandew/supertab'
 
+" vue
+ Plugin 'posva/vim-vue'
+
 "--------------------code---------------------------------------
 Plugin 'scrooloose/syntastic'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'junegunn/vim-easy-align'
 Plugin 'tpope/vim-surround'
+Plugin 'Pioneer-Linzi/vim-template'
 
 "-------------------快速注释-----------------------------------
 Plugin 'scrooloose/nerdcommenter'
