@@ -51,6 +51,7 @@ Plugin 'junegunn/vim-easy-align'
 Plugin 'tpope/vim-surround'
 Plugin 'Pioneer-Linzi/vim-template'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'marijnh/tern_for_vim'
 
 "-------------------快速注释-----------------------------------
 Plugin 'scrooloose/nerdcommenter'
