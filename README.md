@@ -45,6 +45,17 @@
 ## vim-autoformat
 ## vim-trailing-whitespace
 ## vim-easy-align
+
+```
+"---------------------------vim  easy align -------------------------
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga :EasyAlign
+```
+```
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga :EasyAlign
+```
+
 ## YouCompleteMe
 ## TaskList.vim
 ## mbbil/undotree
