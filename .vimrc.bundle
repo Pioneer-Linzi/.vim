@@ -52,6 +52,9 @@ Plugin 'tpope/vim-surround'
 Plugin 'Pioneer-Linzi/vim-template'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'marijnh/tern_for_vim'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'HerringtonDarkholme/yats.vim'
+Plugin 'Quramy/tsuquyomi'
 
 "-------------------快速注释-----------------------------------
 Plugin 'scrooloose/nerdcommenter'
