@@ -1,0 +1,2 @@
+nmap <leader>vimrc :e ~/.vimrc
+nmap <leader><space> :nohlsearch<cr>

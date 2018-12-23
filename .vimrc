@@ -56,3 +56,8 @@ endfunction
 " }
 
 
+" vim keymap{
+    if filereadable(expand("~/.vim/.vimrc.config.keymap"))
+        source ~/.vim/.vimrc.config.keymap
+    endif
+" }
