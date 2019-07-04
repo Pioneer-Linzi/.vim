@@ -68,8 +68,10 @@ Plugin 'iamcco/mathjax-support-for-mkdp'
 Plugin 'iamcco/markdown-preview.vim'
 Plugin 'CodeFalling/fcitx-vim-osx'
 
+"-------------------代码补全------------------------------------------
+Plugin 'neoclide/coc.nvim'
+
 
 
 call vundle#end()            " required
 filetype plugin indent on    " required
-
