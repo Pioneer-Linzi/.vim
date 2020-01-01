@@ -2,19 +2,23 @@
 # vim config file .vimrc
 	.vimrc  vim 第一配置文件 里面配置了分配置文件的路径
 	.vimrc.config 	vim的配置文件，
-	.vimrc.bundle 插件的配置文件，主要是插件
-	.vimrc.bundle.config vim 插件的配置文件，主要有快捷键，与插件的配置
+	.vimrc.plugin.config vim 插件的配置文件，主要有快捷键，与插件的配置
+	.vimrc.config.keymap vim 的快捷键配置
+	autocmd.vim 自动执行的一些命令
 
+# 注意 
+本人前端，前端的配置多一点，下面的插件还没有完善，还没想补文档，后面一定补 
 # install 
-	clone vundel to vimfiles/bundle/ 
 ```
-	git clone http://github.com/VundleVim/Vundle.Vim
+	cd ~
+	git clone git@github.com:Pioneer-Linzi/.vim.git
+	ln -s -i ~/.vim/.vimrc ~/.vimrc
 ```
+
 
 # use plugin and key map
-
+## coc for neovim
 ## vim-easymotion
-
 ## vim-multiple-cursors
 ## nerdtree
 ## vim-colors-solarized
@@ -67,7 +71,7 @@ nmap ga :EasyAlign
 ## undotree
 
 ```
-		,,td 打开todo list
+,,td 打开todo list
 ```
 
 
